@@ -26,7 +26,7 @@ public class Moves : MonoBehaviour
     void Update()
     {
         //animação de movimento
-        if (Input.GetAxis("Horizontal") > 0) 
+        if(Input.GetAxis("Horizontal") > 0)
         {
             movimentos.SetBool("direita", true);
         }
@@ -34,15 +34,7 @@ public class Moves : MonoBehaviour
         {
             movimentos.SetBool("direita", false);
         }
-        if(Input.GetAxis("Horizontal") < 0)
-        {
-            movimentos.SetBool("esquerda", true);
-        }
-        else
-        {
-            movimentos.SetBool("esquerda", false);
-        }
-        if (Input.GetAxis("Vertical") > 0) 
+        if(Input.GetAxis("Vertical") > 0)
         {
             movimentos.SetBool("cima", true);
         }
@@ -50,13 +42,21 @@ public class Moves : MonoBehaviour
         {
             movimentos.SetBool("cima", false);
         }
-        if(Input.GetAxis("Vertical") < 0)
+        if(Input.GetAxis("Horizontal") < 0)
+        {
+            movimentos.SetBool("esquerda", true);
+        }
+        else
+        {
+            movimentos.SetBool("esquerda", false) ;
+        }
+        if (Input.GetAxis("Vertical") < 0)
         {
             movimentos.SetBool("baixo", true);
         }
         else
         {
-            movimentos.SetBool("baixo", false);
+            movimentos.SetBool("baixo", false) ;
         }
 
         //-------------------------------
