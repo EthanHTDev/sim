@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 //importando a UI
 using UnityEngine.UI;
+//cenas ?
+using UnityEngine.SceneManagement;
 
 public class Moves : MonoBehaviour
 {
@@ -19,7 +21,7 @@ public class Moves : MonoBehaviour
     public Animator movimentos;
     //barrinha HUD
     public float staminaInicial = 100f;
-    public float taxaDeDecrementoStamina = 1f;
+    public float taxaDeDecrementoStamina = 5f;
     public float staminaAtual;
     public Slider sliderStamina;
 
@@ -91,9 +93,9 @@ public class Moves : MonoBehaviour
 
         //--------------------------------
 
-         if(Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0)
+         if(meuX != 0 || meuY != 0)
         {
-            staminaAtual -= taxaDeDecrementoStamina;
+            staminaAtual -= taxaDeDecrementoStamina * Time.deltaTime;
             AtualiazarSliderStamina();
         }
 
@@ -101,7 +103,12 @@ public class Moves : MonoBehaviour
     //criando função propria da barrinha
     void AtualiazarSliderStamina()
     {
-        sliderStamina.value -= 1f * Time.deltaTime;
+            sliderStamina.value = staminaAtual / staminaInicial;
+        if(sliderStamina.value <= 0)
+        {
+
+            SceneManager.LoadScene(2);
+        }
     }
 
     
