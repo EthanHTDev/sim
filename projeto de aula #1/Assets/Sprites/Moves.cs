@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+//importando a UI
+using UnityEngine.UI;
 
 public class Moves : MonoBehaviour
 {
@@ -10,21 +12,37 @@ public class Moves : MonoBehaviour
     //public float meuY;
     //public float meuX;
     //public int sense;
+    //movimentação
     private Rigidbody2D rb;
     public float velocidade = 5f;
+    //animação variavel
     public Animator movimentos;
+    //barrinha HUD
+    public float staminaInicial = 100f;
+    public float taxaDeDecrementoStamina = 1f;
+    public float staminaAtual;
+    public Slider sliderStamina;
+
 
     void Start()
     {
+        //movimentação
         rb = GetComponent<Rigidbody2D>();
         rb.velocity = Vector3.zero;
         movimentos = GetComponent<Animator>();
-        //moves = transform.position;
+        
+        //stamina
+        staminaAtual = staminaInicial;
+        AtualiazarSliderStamina();
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        
+       
+
         //animação de movimento
         if(Input.GetAxis("Horizontal") > 0)
         {
@@ -60,17 +78,31 @@ public class Moves : MonoBehaviour
         }
 
         //-------------------------------
+        //movimentação
 
         float meuX = Input.GetAxisRaw("Horizontal") * velocidade;
         float meuY = Input.GetAxisRaw("Vertical") * velocidade;
 
+        
+
 
         rb.velocity = new Vector2(meuX, meuY);
 
-        
-      
 
-        
+        //--------------------------------
+
+         if(Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0)
+        {
+            staminaAtual -= taxaDeDecrementoStamina;
+            AtualiazarSliderStamina();
+        }
 
     }
+    //criando função propria da barrinha
+    void AtualiazarSliderStamina()
+    {
+        sliderStamina.value -= 1f * Time.deltaTime;
+    }
+
+    
 }
