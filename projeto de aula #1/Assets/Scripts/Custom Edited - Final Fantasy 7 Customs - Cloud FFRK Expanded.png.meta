@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,7 +123,1141 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_0
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_28
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 117
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93add0e5ecc9394eb57f3881eae0a0e
+      internalID: -1264167676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_29
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 117
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c106b30b7811284dbc5321d1b2b38dc
+      internalID: -514676564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_30
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 117
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9000742919fffe448d9b311b9d481c4
+      internalID: -847747185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_31
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 117
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbba90a390c758a49aa948ea3e45cf37
+      internalID: -530340868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_32
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 117
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a10ec94e2b34e45bbb669b1663e66b
+      internalID: -957306455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_33
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 117
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3190d2fa6e3d5e84a98dc6e2cbbb63ac
+      internalID: 431547559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_34
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 117
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a01903e4ba9337449c002b17582df81
+      internalID: -615206198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_35
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 117
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47611872ab2fcc42baeba1644a20c40
+      internalID: -565978496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_36
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 117
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35ad3e7b50f6f94cabc115484fc2693
+      internalID: -400259658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_37
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 117
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c4dfa8649e8d545af6bd1e9afb699e
+      internalID: -296787501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_38
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 117
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98bcd8421f8e0524e9077e5e983b88aa
+      internalID: 1870955435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_46
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 91
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703df89c7dd65e04a91a16564b9211f4
+      internalID: -950958598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_47
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 91
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ec0505977ac0d4f8aab10396f4baac
+      internalID: -231997450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_48
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 91
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb577e606777ee4484924865ce8fa49
+      internalID: 1372707241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_52
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 90
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70ed83b6b88dea42bd9a716e491388f
+      internalID: 963979764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_53
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 90
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7661003fa57e4d418e1ae69958a7abf
+      internalID: 664267261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_54
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 90
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79393f348416cb7409cfd5b6ba94f639
+      internalID: -2034692864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_55
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 90
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3997f6389a1094a8d4be87614472f0
+      internalID: -1787041333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_76
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 80
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93743e7a4c337de439dc4384bb931997
+      internalID: -2071069283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_77
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 80
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f672343a7579847a747b1a1e020811
+      internalID: 80698693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_78
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 80
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52dc35d36b5ad3c42867c49bd272f9b8
+      internalID: 1862830200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_79
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 80
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9442c43f622bc914fa6c0311342d8b2d
+      internalID: 669365947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_80
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 64
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe28b464880ec84ca8177d00147ad59
+      internalID: -1116432845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_81
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 64
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5197fcc90733f994a9b6747b18b41f3f
+      internalID: 301891082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_82
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 62
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98decc713f8b7ec48a42031993b4febb
+      internalID: -1863571177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_83
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 62
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f1310d7289bc44db8a7db29edacb2c
+      internalID: -586696300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_84
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 53
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4572239c1ed3d4041af8898acfc8eb67
+      internalID: 1942577084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_85
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 53
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf71df305a9cdd44a9274668be4b8ec
+      internalID: 657093954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_86
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 53
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ae54b1f97e2574486bd7c20ed81e3f
+      internalID: -1411404925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_87
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 53
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e96517942447d4696b7f625ab3170b
+      internalID: 1238094430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_88
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 53
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34bdb96d5e5cf5242baea259d9c8629a
+      internalID: 14747669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_89
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 53
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e101b305722ed4e8b24e7ca28b61d1
+      internalID: -957739643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_90
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 55
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc511f439a18944385e19a65e588eeb
+      internalID: -1198932770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_91
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 55
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d883afe4272a54ca841e9a2e81ea24
+      internalID: -919929592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_92
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 55
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72dc9a563833e9e4db9047f97c94ff5d
+      internalID: -939709018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_93
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 55
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4359695705bd93a4cb430526a16b0eb2
+      internalID: 206172386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_94
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 53
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f496b357c7f94c6409cf214954e8ee6c
+      internalID: -97970878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_95
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 53
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735c9ec387645444cadc343f2a2f8686
+      internalID: -1574323875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_96
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 35
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9031920b2ec9842a8c68c8717dd628
+      internalID: 1958902445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_97
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 35
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d8c56e30f1aae498786e7bb76bbfae
+      internalID: -1062000296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_98
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 35
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1d8e902000acf4b90c3795172b9f2b
+      internalID: -1524833933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_99
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 35
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b48707cb7dbdd4ab963ae89fa22289
+      internalID: -1551689628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_100
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 26
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d54bba9e2f1874581bf8cfb31f16bf
+      internalID: 1653842734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_101
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 26
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1fe60e9525f0804ba0ec6c125ea16fe
+      internalID: 1296395092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_102
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 26
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55029ddd4a586d4285f07a001fe97b6
+      internalID: -1922713287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_103
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 26
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963c48fc21e4afa4ba8205292872cb57
+      internalID: -16243982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_104
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 26
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54019924711769a4f9c2c7993eb6aeee
+      internalID: -1659986962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_105
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 26
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3ede13b6cb6ef4d9724694cce55eef
+      internalID: -386365971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_106
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 35
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff45f90fe269d26449c553d7c2788785
+      internalID: -633584027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_107
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 35
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db3da29dc3951f4594b227cfd758c4b
+      internalID: -889015584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_108
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 31
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e2fe83f4214cc4684a286f581c5093
+      internalID: 1490788765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_128
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 6
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a31e9ba47f1a8245a9f1f9796adfe92
+      internalID: -38026675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_129
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 4
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e82de1f719933141b0637b407ff74ff
+      internalID: -71818110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_130
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 6
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371a244ddedd8794fbcfe7b62674a917
+      internalID: -1893757813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_21
       rect:
         serializedVersion: 2
         x: 4
@@ -137,19 +1271,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 056311a56b11a1c45b4a6e398f67a069
-      internalID: 28189031
+      spriteID: 0ba891580f7f25f46a8abce221be8061
+      internalID: 1651400224
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_1
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_22
       rect:
         serializedVersion: 2
-        x: 23
+        x: 22
         y: 118
-        width: 15
+        width: 16
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -158,17 +1292,59 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58fa2565bea7832429420676bf2e809c
-      internalID: -1839401333
+      spriteID: 1a2ad558dbffcdc4e959e49986ef1ce2
+      internalID: 74367266
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_23
       rect:
         serializedVersion: 2
-        x: 42
+        x: 41
+        y: 118
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bffd6690ff10f2488f6a62fbf6d5f20
+      internalID: -2408049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_24
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 118
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8d3a0452dff9449bbbc2a54ab9645e
+      internalID: -1547559349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_25
+      rect:
+        serializedVersion: 2
+        x: 78
         y: 118
         width: 14
         height: 24
@@ -179,62 +1355,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d007ace9f60053c40933a457d1ae116a
-      internalID: 2046365595
+      spriteID: 7fe85c3a1ddbec04588a18d9d214dc71
+      internalID: -666098320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_3
-      rect:
-        serializedVersion: 2
-        x: 59
-        y: 118
-        width: 17
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c9d94f4a4d5382d42b9f9749ee307485
-      internalID: -567691380
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_4
-      rect:
-        serializedVersion: 2
-        x: 77
-        y: 118
-        width: 17
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fb370f4b46b0b2f4580ded6c6fa600b7
-      internalID: -1002736032
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_5
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_26
       rect:
         serializedVersion: 2
         x: 95
         y: 118
         width: 16
-        height: 24
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,20 +1376,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1bc9d2c317ac3a43a4e47ed5a17f69e
-      internalID: 884072296
+      spriteID: 21da36e2798331f479bacba77536a845
+      internalID: 629572781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_6
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_27
       rect:
         serializedVersion: 2
-        x: 4
-        y: 91
+        x: 114
+        y: 117
         width: 15
-        height: 24
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,38 +1397,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6eb36988c2951b1428599ac890f56c5c
-      internalID: 1381278769
+      spriteID: 9415dcbca10ab854386ad39b4efbf3c9
+      internalID: -613695013
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_7
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_39
       rect:
         serializedVersion: 2
-        x: 23
-        y: 91
-        width: 14
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 23aa4ec16249b2048b097e0f925322b1
-      internalID: 537935389
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_8
-      rect:
-        serializedVersion: 2
-        x: 41
+        x: 3
         y: 91
         width: 16
         height: 24
@@ -305,14 +1418,119 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ad6876e2eb5bcc4d8e014e67f17a0a5
-      internalID: 484116252
+      spriteID: d095fdcf61d84eb48a63ca74cd741dc2
+      internalID: 176842849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_9
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_40
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 91
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0df4746f35908479c89d8850639159
+      internalID: -1624555465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_41
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 91
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: decdb9a25014cda4d8651a59f5a8a999
+      internalID: -1823471972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_43
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 91
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6642535de41e442bda74edfffa857d
+      internalID: -873334069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_44
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 91
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ba8499508d27c4091e5860fd0d548e
+      internalID: -771022432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_45
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 91
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d489145e2ac2f4faf12d942ff7f087
+      internalID: 2112263775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_0
       rect:
         serializedVersion: 2
         x: 60
@@ -326,50 +1544,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a0e3da889bb91d4ca00315c6c918a05
-      internalID: 346917171
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_10
-      rect:
-        serializedVersion: 2
-        x: 78
-        y: 91
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3106919724377584f80a71a1db71740d
-      internalID: -1899546341
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_11
-      rect:
-        serializedVersion: 2
-        x: 95
-        y: 91
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 51947fb5caad85643baeb358b4f95344
-      internalID: -1031434391
+      spriteID: 2448cb37f7ed8f9419e8a550baa1e94a
+      internalID: 28189031
       vertices: []
       indices: 
       edges: []
@@ -388,16 +1564,142 @@ TextureImporter:
       Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_0: 28189031
       Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_1: -1839401333
       Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_10: -1899546341
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_100: 1653842734
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_101: 1296395092
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_102: -1922713287
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_103: -16243982
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_104: -1659986962
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_105: -386365971
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_106: -633584027
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_107: -889015584
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_108: 1490788765
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_109: -1986464550
       Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_11: -1031434391
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_110: -562414368
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_111: -1137606969
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_112: -1812612604
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_113: -1986620257
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_114: -177406726
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_115: 1834715299
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_116: 1173065499
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_117: 1799880192
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_118: 1226025708
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_119: 1373250824
       Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_12: -1740198262
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_120: 481840196
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_121: -636240431
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_122: -1763539110
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_123: -211245807
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_124: -594499674
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_125: -277718725
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_126: 1811341707
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_127: -88213766
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_128: -38026675
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_129: -71818110
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_13: -2083602334
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_130: -1893757813
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_131: -1592688464
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_132: 1443612460
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_133: 405569227
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_134: 1817757417
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_135: 1436231511
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_136: -1571365759
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_137: -339133773
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_138: -323987420
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_14: 1875110976
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_15: -1038915367
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_16: 1420664327
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_17: 1833682305
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_18: 1532585059
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_19: -1361935285
       Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_2: 2046365595
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_20: -20696659
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_21: 1651400224
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_22: 74367266
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_23: -2408049
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_24: -1547559349
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_25: -666098320
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_26: 629572781
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_27: -613695013
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_28: -1264167676
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_29: -514676564
       Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_3: -567691380
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_30: -847747185
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_31: -530340868
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_32: -957306455
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_33: 431547559
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_34: -615206198
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_35: -565978496
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_36: -400259658
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_37: -296787501
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_38: 1870955435
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_39: 176842849
       Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_4: -1002736032
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_40: -1624555465
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_41: -1823471972
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_42: -1711491599
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_43: -873334069
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_44: -771022432
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_45: 2112263775
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_46: -950958598
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_47: -231997450
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_48: 1372707241
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_49: -798903965
       Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_5: 884072296
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_50: 239400550
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_51: 929327960
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_52: 963979764
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_53: 664267261
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_54: -2034692864
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_55: -1787041333
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_56: -1197204839
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_57: -2124830534
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_58: 2024845064
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_59: 247802171
       Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_6: 1381278769
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_60: -1534188098
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_61: -527133661
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_62: 784153155
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_63: 1687328669
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_64: -1979602433
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_65: 544667452
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_66: -454705286
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_67: 432258715
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_68: -454705938
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_69: 1658935830
       Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_7: 537935389
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_70: 1679983304
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_71: -1946219606
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_72: -558016783
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_73: -1281296834
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_74: -744089751
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_75: -1391054464
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_76: -2071069283
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_77: 80698693
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_78: 1862830200
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_79: 669365947
       Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_8: 484116252
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_80: -1116432845
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_81: 301891082
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_82: -1863571177
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_83: -586696300
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_84: 1942577084
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_85: 657093954
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_86: -1411404925
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_87: 1238094430
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_88: 14747669
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_89: -957739643
       Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_9: 346917171
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_90: -1198932770
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_91: -919929592
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_92: -939709018
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_93: 206172386
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_94: -97970878
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_95: -1574323875
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_96: 1958902445
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_97: -1062000296
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_98: -1524833933
+      Custom Edited - Final Fantasy 7 Customs - Cloud FFRK Expanded_99: -1551689628
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
