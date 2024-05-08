@@ -24,6 +24,8 @@ public class Moves : MonoBehaviour
     //animação variavel
     public Animator movimentos;
 
+    bool iswalking = false;
+
     //barrinha HUD
     public float staminaInicial = 100f;
     public float taxaDeDecrementoStamina = 5f;
@@ -53,6 +55,8 @@ public class Moves : MonoBehaviour
         
         //animação
         movimentos = GetComponent<Animator>();
+
+        iswalking = false;
         
         //stamina
         staminaAtual = staminaInicial;
@@ -79,49 +83,61 @@ public class Moves : MonoBehaviour
         }
         //---------------------------------
         //animação de movimento
-        if(Input.GetAxis("Horizontal") > 0)
-        {
-            movimentos.SetBool("direita", true);
-        }
-        else
-        {
-            movimentos.SetBool("direita", false);
-        }
-        if(Input.GetAxis("Vertical") > 0)
-        {
-            movimentos.SetBool("cima", true);
-        }
-        else
-        {
-            movimentos.SetBool("cima", false);
-        }
-        if(Input.GetAxis("Horizontal") < 0)
-        {
-            movimentos.SetBool("esquerda", true);
-        }
-        else
-        {
-            movimentos.SetBool("esquerda", false) ;
-        }
-        if (Input.GetAxis("Vertical") < 0)
-        {
-            movimentos.SetBool("baixo", true);
-        }
-        else
-        {
-            movimentos.SetBool("baixo", false) ;
-        }
+        //if(Input.GetAxis("Horizontal") > 0)
+        // {
+        //    movimentos.SetBool("direita", true);
+        // }
+        // else
+        // {
+        //     movimentos.SetBool("direita", false);
+        // }
+        // if(Input.GetAxis("Vertical") > 0)
+        // {
+        //     movimentos.SetBool("cima", true);
+        // }
+        // else
+        //{
+        //    movimentos.SetBool("cima", false);
+        // }
+        // if(Input.GetAxis("Horizontal") < 0)
+        // {
+        //     movimentos.SetBool("esquerda", true);
+        // }
+        //else
+        // {
+        //    movimentos.SetBool("esquerda", false) ;
+        // }
+        // if (Input.GetAxis("Vertical") < 0)
+        // {
+        //     movimentos.SetBool("baixo", true);
+        // }
+        // else
+        // {
+        //    movimentos.SetBool("baixo", false) ;
+        // }
 
+        
         //-------------------------------
         //movimentação
 
         float meuX = Input.GetAxisRaw("Horizontal") * velocidade;
         float meuY = Input.GetAxisRaw("Vertical") * velocidade;
 
-        
-
-
         rb.velocity = new Vector2(meuX, meuY);
+       
+       iswalking = meuX != 0 || meuY != 0;
+
+       movimentos.SetFloat("MeuX", meuX);
+       movimentos.SetFloat("MeuY", meuY);
+       movimentos.SetBool("is walking", iswalking);
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            movimentos.SetTrigger("attack");
+        }
+       
+
+
+        
 
 
         //--------------------------------
