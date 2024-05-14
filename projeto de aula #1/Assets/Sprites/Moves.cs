@@ -126,9 +126,12 @@ public class Moves : MonoBehaviour
         rb.velocity = new Vector2(meuX, meuY);
        
        iswalking = meuX != 0 || meuY != 0;
-
+        if(meuX != 0 || meuY != 0) { 
        movimentos.SetFloat("MeuX", meuX);
        movimentos.SetFloat("MeuY", meuY);
+
+        }
+
        movimentos.SetBool("is walking", iswalking);
         if (Input.GetKeyDown(KeyCode.Z))
         {
