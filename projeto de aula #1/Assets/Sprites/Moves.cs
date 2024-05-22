@@ -12,10 +12,7 @@ public class Moves : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    //private Vector3 moves;
-    //public float meuY;
-    //public float meuX;
-    //public int sense;
+    
     
     //movimentação
     private Rigidbody2D rb;
@@ -40,12 +37,15 @@ public class Moves : MonoBehaviour
     private float CorridaAtual;
     public bool RunStamina;
     private bool run;
+    private bool stamina;
 
     //colisao com a tag
 
     public float TaxaDeRecuperacao = 10f;
-    
 
+    //vida do player
+    public int playerHealth = 100;
+    public Slider lifeSlider;
 
     void Start()
     {
@@ -73,7 +73,7 @@ public class Moves : MonoBehaviour
         //corrida
         run = Input.GetKey(KeyCode.LeftShift);
         
-        if (run)
+        if (run && stamina == true)
         {
             velocidade = CorridaInicial;
         }
@@ -81,40 +81,7 @@ public class Moves : MonoBehaviour
         {
             velocidade = CorridaAtual;
         }
-        //---------------------------------
-        //animação de movimento
-        //if(Input.GetAxis("Horizontal") > 0)
-        // {
-        //    movimentos.SetBool("direita", true);
-        // }
-        // else
-        // {
-        //     movimentos.SetBool("direita", false);
-        // }
-        // if(Input.GetAxis("Vertical") > 0)
-        // {
-        //     movimentos.SetBool("cima", true);
-        // }
-        // else
-        //{
-        //    movimentos.SetBool("cima", false);
-        // }
-        // if(Input.GetAxis("Horizontal") < 0)
-        // {
-        //     movimentos.SetBool("esquerda", true);
-        // }
-        //else
-        // {
-        //    movimentos.SetBool("esquerda", false) ;
-        // }
-        // if (Input.GetAxis("Vertical") < 0)
-        // {
-        //     movimentos.SetBool("baixo", true);
-        // }
-        // else
-        // {
-        //    movimentos.SetBool("baixo", false) ;
-        // }
+        
 
         
         //-------------------------------
@@ -166,17 +133,22 @@ public class Moves : MonoBehaviour
                 AtualiazarSliderStamina();
         }
         }
+
+        // vida do jogador
+        lifeSlider.value = playerHealth * 0.01f;
+
     }
     //criando função propria da barrinha
     void AtualiazarSliderStamina()
     {
         sliderStamina.value = staminaAtual /  staminaInicial;
-        if (morte) { 
-            if(sliderStamina.value <= 0)
-            {
-
-                SceneManager.LoadScene(1);
-            }
+        if(staminaAtual <= 1)
+        {
+            stamina = false;
+        }
+        else
+        {
+            stamina = true;
         }
     }
 
@@ -189,6 +161,18 @@ public class Moves : MonoBehaviour
             staminaAtual += TaxaDeRecuperacao;
             
         }
+        }
+    }
+
+    public void takeDamage(int damage)
+    {
+        playerHealth -= damage;
+        Debug.Log("dano recebido " + damage + " vida restante" + playerHealth);
+        
+        if(playerHealth <= 0)
+        {
+            Debug.Log("game over");
+            SceneManager.LoadScene(1);
         }
     }
 

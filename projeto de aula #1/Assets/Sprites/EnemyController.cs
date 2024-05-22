@@ -11,9 +11,12 @@ public class EnemyController : MonoBehaviour
     public float movimentSpeed = 2f;
     private Animator animator;
     private bool isWalking = false;
+
     private Rigidbody2D rb;
     private Vector3 scale;
     private Transform currentTarget;
+
+    private Coroutine attackCoroutine;
     // Start is called before the first frame update
     void Start()
     {
@@ -69,5 +72,52 @@ public class EnemyController : MonoBehaviour
         Vector3 FlippedScale = scale;
         FlippedScale.x *= -1;
         transform.localScale = FlippedScale;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("zona")) 
+        {
+           
+        }
+
+        Moves  player = collision.GetComponent<Moves>();
+
+        if (player == null)
+        {
+            player = collision.GetComponentInParent<Moves>();
+        }
+        if (player != null)
+        {
+            if(attackCoroutine == null)
+            {
+                attackCoroutine = StartCoroutine(AttackPlayer(player));
+            }
+        }
+        else
+        {
+            Debug.LogWarning("player nao enontrado no objeto com a tag ZoneAttack");
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("zona"))
+        {
+            Debug.Log("inimigo saiu da zona de attack");
+            if (attackCoroutine != null)
+            {
+                StopCoroutine(attackCoroutine);
+                attackCoroutine = null;
+            }
+        } 
+    }
+
+    private IEnumerator AttackPlayer(Moves player)
+    {
+        player.takeDamage(10);
+        animator.SetTrigger("attack");
+        Debug.Log("inimgo atacando");
+        yield return new WaitForSeconds(1);
     }
 }
