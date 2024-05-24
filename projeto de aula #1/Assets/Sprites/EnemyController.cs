@@ -11,8 +11,12 @@ public class EnemyController : MonoBehaviour
     public float movimentSpeed = 1f;
     private Animator animator;
     private bool isWalking = false;
+<<<<<<< Updated upstream
 
     private Rigidbody2D rb;
+=======
+    public Rigidbody2D rb;
+>>>>>>> Stashed changes
     private Vector3 scale;
     private Transform currentTarget;
 
@@ -20,10 +24,11 @@ public class EnemyController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        animator = GetComponent<Animator>();
-        rb = GetComponent<Rigidbody2D>();
-        currentTarget = waypointA;
-        scale = transform.localScale;
+        animator = GetComponent<Animator>(); //pegando o hud do animator
+        rb = GetComponent<Rigidbody2D>(); //pengando o hud do rigidbody2D
+        currentTarget = waypointA; //colocando as infirmaçoes do waypointA e transferindo para o curretTarget
+        scale = transform.localScale; //
+        
     }
 
     // Update is called once per frame

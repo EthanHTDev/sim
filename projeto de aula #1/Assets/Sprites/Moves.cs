@@ -29,6 +29,10 @@ public class Moves : MonoBehaviour
     public float staminaAtual;
     public Slider sliderStamina;
 
+    //testes
+
+    public Vector3 testePo;
+
     //adicionar cena de game over
     public bool morte;
 
@@ -64,6 +68,11 @@ public class Moves : MonoBehaviour
 
         //corrida
         CorridaAtual = velocidade;
+
+        //teste
+
+        testePo = new Vector3(2f, 3f, 5f);
+        Debug.Log(testePo);
 
     }
 
