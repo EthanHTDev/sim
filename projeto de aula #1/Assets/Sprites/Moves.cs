@@ -164,7 +164,7 @@ public class Moves : MonoBehaviour
         }
     }
 
-    public void takeDamage(int damage)
+    public void TakeDamage(int damage)
     {
         playerHealth -= damage;
         Debug.Log("dano recebido " + damage + " vida restante" + playerHealth);

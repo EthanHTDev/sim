@@ -8,7 +8,7 @@ public class EnemyController : MonoBehaviour
 
     public Transform waypointA;
     public Transform waypointB;
-    public float movimentSpeed = 2f;
+    public float movimentSpeed = 1f;
     private Animator animator;
     private bool isWalking = false;
 
@@ -115,7 +115,7 @@ public class EnemyController : MonoBehaviour
 
     private IEnumerator AttackPlayer(Moves player)
     {
-        player.takeDamage(10);
+        player.TakeDamage(10);
         animator.SetTrigger("attack");
         Debug.Log("inimgo atacando");
         yield return new WaitForSeconds(1);
