@@ -8,6 +8,8 @@ TagManager:
   - door-open
   - camera
   - zona
+  - attackzone
+  - boom
   layers:
   - Default
   - TransparentFX

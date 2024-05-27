@@ -51,9 +51,7 @@ public class Moves : MonoBehaviour
     public int playerHealth = 100;
     public Slider lifeSlider;
 
-    //destruir
-
-    Destruir batata;
+    
     
 
     //gameobject
@@ -85,7 +83,7 @@ public class Moves : MonoBehaviour
 
         //destruir
 
-        batata = GetComponentInParent<Destruir>();
+       
         
     }
 
@@ -185,10 +183,7 @@ public class Moves : MonoBehaviour
         }
         }
 
-        if (collision.gameObject.CompareTag("Finish"))
-        {
-            Destroy(collision.gameObject);
-        }
+        
     }
     
     

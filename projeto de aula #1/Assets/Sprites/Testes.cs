@@ -24,7 +24,11 @@ public class Testes : MonoBehaviour
 
     //a partir daqui eu não faço ideia
 
-    private Coroutine attackCoroutine; 
+    private Coroutine attackCoroutine;
+
+    //vida do inimigo
+
+    private int vidaInimigo = 50;
 
 
  
@@ -35,6 +39,7 @@ public class Testes : MonoBehaviour
 
         targertOfficial = targetA;
         movimento = GetComponent<Animator>();
+        Debug.Log("vida do inimigo" + vidaInimigo);
 
     }
 
@@ -100,7 +105,14 @@ public class Testes : MonoBehaviour
             Debug.LogWarning("player nao enontrado no objeto com a tag ZoneAttack");
         }
 
+        if (other.CompareTag("attackzone"))
+        {
+            EnemyTakeDamage(vidaInimigo);
+        }
+
     }
+
+    
 
     private void OnTriggerExit2D(Collider2D other)
     {
@@ -112,6 +124,16 @@ public class Testes : MonoBehaviour
                 StopCoroutine(attackCoroutine);
                 attackCoroutine = null;
             }
+        }
+    }
+
+    public void EnemyTakeDamage(int damage)
+    {
+        vidaInimigo -= damage;
+
+        if (vidaInimigo <= 0)
+        {
+            //Destroy(gameObject);
         }
     }
 

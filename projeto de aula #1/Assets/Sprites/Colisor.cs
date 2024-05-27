@@ -6,7 +6,7 @@ public class Colisor : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Untagged"))
+        if (collision.gameObject.CompareTag("Finish"))
         {
             Destroy(collision.gameObject);
         }

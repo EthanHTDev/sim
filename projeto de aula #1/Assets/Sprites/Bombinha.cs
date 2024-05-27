@@ -44,7 +44,7 @@ public class Bombinha : MonoBehaviour
         position.x = Mathf.Round(position.x);
         position.y = Mathf.Round(position.y);
 
-        GameObject bomb = Instantiate(bombinha, position, Quaternion.identity);
+        GameObject bomb = Instantiate(bombinha, transform.position, Quaternion.identity);
         bombRestantes--;
 
         yield return new WaitForSeconds(timeBomb);
@@ -52,10 +52,16 @@ public class Bombinha : MonoBehaviour
         Destroy(bomb);
         bombRestantes++;
 
-        Instantiate(triggerA, transform.position, transform.rotation);
-        Instantiate(triggerB, transform.position, transform.rotation);
+        
 
-        Destroy(triggerA);
-        Destroy(triggerB);
+        GameObject triggerAa = Instantiate(triggerA, transform.position, Quaternion.identity);
+        GameObject triggerBb = Instantiate(triggerB, transform.position, Quaternion.identity);
+
+        yield return new WaitForSeconds(2);
+
+        Destroy(triggerAa);
+        Destroy(triggerBb);
     }
+
+    
 }
