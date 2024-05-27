@@ -11,6 +11,8 @@ public class Bombinha : MonoBehaviour
     public float timeBomb = 3f; //tempo para explodir
     public int quantidadeBomb = 1; //quantidade de bombas
     private int bombRestantes; //bomba restantes no inventario
+    public GameObject triggerA;
+    public GameObject triggerB;
 
 
     //Esta função é chamada quando o objeto se torna habilitado e ativo
@@ -18,19 +20,21 @@ public class Bombinha : MonoBehaviour
     {
         bombRestantes = quantidadeBomb;
     }
-    
+
     void Start()
     {
-        
+
     }
 
-    
+
     void Update()
     {
-        if(bombRestantes > 0 && Input.GetKeyDown(inputKey)) // se o seu invetario tiver mais bombas e apertar o espaço ele ativa
-        { 
+        if (bombRestantes > 0 && Input.GetKeyDown(inputKey)) // se o seu invetario tiver mais bombas e apertar o espaço ele ativa
+        {
             StartCoroutine(PlaceBomb());
         }
+
+
     }
 
     //criando uma courotine para fazer a bomba explodir e tambem dar um tempo pra cada explosão
@@ -47,5 +51,11 @@ public class Bombinha : MonoBehaviour
 
         Destroy(bomb);
         bombRestantes++;
+
+        Instantiate(triggerA, transform.position, transform.rotation);
+        Instantiate(triggerB, transform.position, transform.rotation);
+
+        Destroy(triggerA);
+        Destroy(triggerB);
     }
 }

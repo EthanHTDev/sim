@@ -11,12 +11,12 @@ public class EnemyController : MonoBehaviour
     public float movimentSpeed = 1f;
     private Animator animator;
     private bool isWalking = false;
-<<<<<<< Updated upstream
+
 
     private Rigidbody2D rb;
-=======
-    public Rigidbody2D rb;
->>>>>>> Stashed changes
+
+    
+
     private Vector3 scale;
     private Transform currentTarget;
 

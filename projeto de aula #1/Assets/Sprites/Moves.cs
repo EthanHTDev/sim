@@ -51,6 +51,15 @@ public class Moves : MonoBehaviour
     public int playerHealth = 100;
     public Slider lifeSlider;
 
+    //destruir
+
+    Destruir batata;
+    
+
+    //gameobject
+
+    public GameObject quadrado;
+
     void Start()
     {
         //movimentação
@@ -74,6 +83,10 @@ public class Moves : MonoBehaviour
         testePo = new Vector3(2f, 3f, 5f);
         Debug.Log(testePo);
 
+        //destruir
+
+        batata = GetComponentInParent<Destruir>();
+        
     }
 
     // Update is called once per frame
@@ -114,7 +127,7 @@ public class Moves : MonoBehaviour
             movimentos.SetTrigger("attack");
         }
        
-
+        
 
         
 
@@ -171,7 +184,16 @@ public class Moves : MonoBehaviour
             
         }
         }
+
+        if (collision.gameObject.CompareTag("Finish"))
+        {
+            Destroy(collision.gameObject);
+        }
     }
+    
+    
+
+   
 
     public void TakeDamage(int damage)
     {
